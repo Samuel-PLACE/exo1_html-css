@@ -27,6 +27,11 @@ nav > ul > li
     display: inline-block;
 }
 
+.article1_1
+{
+    background-image: url("https://think.storage.googleapis.com/images/mm-guide-be-there-hp-hero.jpg");
+}
+
 article > img
 {
     width: 100%;
