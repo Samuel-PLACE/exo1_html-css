@@ -3,15 +3,39 @@ body
     margin: 0;
 }
 
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
 .divlogo
 {
     width: 25%;
     margin-right: 0;
+    padding: 0.75em;
 }
 
 .logo
 {
     width: 100%;
+}
+
+header nav a {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0.75em;
+    color: #37474f;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 2.5;
+}
+
+nav
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5%;
 }
 
 nav > ul
@@ -29,7 +53,12 @@ nav > ul > li
 
 .article1_1
 {
-    background-image: url("https://think.storage.googleapis.com/images/mm-guide-be-there-hp-hero.jpg");
+    margin-bottom: 5%;
+}
+
+.article1_1 > img
+{
+    position: relative;
 }
 
 article > img
@@ -41,9 +70,35 @@ article > img
 {
     background-color: #ff7043;
     color: white;
+    position: absolute;
+    top: 21%;
+
 }
 
 .text_article1_1 > h1 > a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.text_article1_2
+{
+    margin-top: -1%;
+    background-color: #c62828;
+}
+
+.text_article1_2 > h1
+{
+    margin-top: 0;
+}
+
+.text_article1_2 > h1 > a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.text_article1_2 > a
 {
     color: white;
     text-decoration: none;
