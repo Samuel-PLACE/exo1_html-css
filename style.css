@@ -1,0 +1,45 @@
+body
+{
+    margin: 0;
+}
+
+.divlogo
+{
+    width: 25%;
+    margin-right: 0;
+}
+
+.logo
+{
+    width: 100%;
+}
+
+nav > ul
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+nav > ul > li
+{
+    display: inline-block;
+}
+
+article > img
+{
+    width: 100%;
+}
+
+.text_article1_1
+{
+    background-color: #ff7043;
+    color: white;
+}
+
+.text_article1_1 > h1 > a
+{
+    color: white;
+    text-decoration: none;
+}
